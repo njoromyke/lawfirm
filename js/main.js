@@ -17,3 +17,43 @@
 //     },
 //     offset: 'bottom-in-view',
 // } )
+
+$(document).ready(function(){
+    $(window).on('scroll',function(){
+        var top = $(window).scrollTop();
+        if(top>=60){
+            $("nav").addClass("newnav");
+        }
+        else
+        if($('nav').hasClass('newnav')){
+            $('nav').removeClass("newnav");
+        }
+       
+    });
+
+    $(".owl-carousel").owlCarousel({
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                loop:true
+            },
+            600:{
+                items:1,
+                nav:true,
+                loop:true
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:true,
+                autoHeight:true,
+            }
+        },
+        
+        autoplay:true,
+        autoplayHoverPause:true,
+        
+        
+    });
+});

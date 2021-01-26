@@ -12,6 +12,24 @@ author:michael njoroge
 }
 
 /* navbar */
+.navbar.hide{
+    transform:  translateY(-100%);
+    transition: all .1s ease-in-out;
+    
+}
+.navbar.newnav{
+  
+    background-color: white !important;
+    transition: all .1s ease-in-out;
+    
+
+}
+.navbar.newnav .navbar-brand{
+    color: #6e5773 !important;
+}
+.navbar.navbar.newnav .nav-item .nav-link{
+    color: black !important;
+}
 .navbar .navbar-brand{
     font-weight: 800 !important;
     text-transform: uppercase !important;
@@ -35,6 +53,9 @@ author:michael njoroge
     color: white !important;
     padding: 10px 5px ;
     
+}
+nav{
+    transition: all .1s ease-in-out 0s;
 }
 
 /* end navbar */
@@ -91,3 +112,40 @@ author:michael njoroge
     
 }
 /* end numbers */
+/* about */
+.about h2{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+}
+.about p{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.about span.h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+/* end about */
+
+/* testimonials */
+.testimonials p{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: 200;
+
+}
+.testimonials .owl-carousel img{
+    width: 64px !important;
+     height: 64px !important;
+     line-height: 64px !important;
+     border-radius: 50% !important;
+     float: left !important;
+      margin-right: 5px !important;
+}
+/* end testimonials */

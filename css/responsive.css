@@ -36,5 +36,11 @@
         font-size: 20px;
         font-weight: 300;
     }
+    .about h2{
+        color: black ;
+        font-size: 58px;
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
     
  }

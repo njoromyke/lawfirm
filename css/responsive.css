@@ -42,5 +42,92 @@
         font-family: 'Nunito Sans', sans-serif;
 
     }
+    .numbers{
+        position: relative;
+        margin-top: -150px;
+        background-color: aliceblue;
+        height: 400px;
+        padding: 20px 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 200px;
+        
+    }
+    .practise-area .nav{
+        background-color: #6e5773 !important;
+        
+    }
+    .practise-area .nav .nav-link{
+        color: white !important;
+        padding-top: 40px;
+    }
+    .practise-area .nav .nav-link.active{
+        background-color: aliceblue !important;
+        color: #6e5773 !important;
+        border-radius: 0% !important;
+        border-top-right-radius: 50% !important;
+        
+    }
+    .practise-area h3{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+    
+    }
+    .practise-area h2{
+        font-weight: 300;
+        font-size: 50px;
+    }
+    .practise-area p{
+        font-family: "Nunito Sans",sans-serif;
+        line-height: 1.5;
+        font-size: 30px;
+        font-weight: 200;
+    }
     
  }
+
+ @media (min-width: 768px) { 
+    .practise-area .nav{
+        background-color: #6e5773 !important;
+        
+    }
+    .practise-area .nav .nav-link{
+        color: white !important;
+        padding-top: 40px;
+    }
+    .practise-area .nav .nav-link.active{
+        background-color: aliceblue !important;
+        color: #6e5773 !important;
+        border-radius: 0% !important;
+        border-top-right-radius: 50% !important;
+        
+    }
+    .practise-area h3{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+    
+    }
+    .practise-area h2{
+        font-weight: 300;
+        font-size: 50px;
+    }
+    .practise-area p{
+        font-family: "Nunito Sans",sans-serif;
+        line-height: 1.5;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .practise-area .nav .nav-link{
+        color: white !important;
+        padding-top: 40px;
+        font-size: 30px !important;
+    }
+
+        
+}
+
+
+
+

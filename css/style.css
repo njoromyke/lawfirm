@@ -12,11 +12,7 @@ author:michael njoroge
 }
 
 /* navbar */
-.navbar.hide{
-    transform:  translateY(-100%);
-    transition: all .1s ease-in-out;
-    
-}
+
 .navbar.newnav{
   
     background-color: white !important;
@@ -69,6 +65,24 @@ nav{
     position: relative;
 
 }
+.hero .hero-text h1{
+    right: 60px;
+   position: absolute;
+   margin-top: 30vh;
+   color: white;
+   font-size: 30px;
+   font-family: 'Nunito Sans', sans-serif;
+}
+.hero .hero-text p{
+    position: absolute;
+    margin-top: 50vh;
+    font-family: 'Nunito Sans', sans-serif;
+    right: 20px;
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 300;
+}
 .hero .btn-1{
     background-color: #6e5773;
     color: white;
@@ -84,21 +98,31 @@ nav{
     color: white;
     text-decoration: none;
 }
+.modal-body .col-form-label{
+    color: black !important;
+    opacity: 50% !important;
+}
+.btn-2{
+        background-color: #6e5773 !important;
+        color: white !important;
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 15px 10px;
+        border-radius: 0% !important;
+        transition: all .3s ease-in-out 0s;
+}
+.modal-body .form-control{
+    background-color: rgb(231, 231, 231) !important;
+    border-radius: 0% !important;
+    border-color:  transparent !important;
+    padding: 30px 0 !important;
+    
+    font-size: 18px;
+}
 
 /* end hero */
 
 /* numbers */
-.numbers{
-    position: relative;
-    margin-top: -150px;
-    background-color: aliceblue;
-    height: 400px;
-    padding: 20px 0px;
-    margin-left: 30px;
-    margin-right: 30px;
-    line-height: 200px;
-    
-}
+
 .numbers h3{
     font-weight: 400;
 }
@@ -149,3 +173,288 @@ nav{
       margin-right: 5px !important;
 }
 /* end testimonials */
+
+/* practise */
+.practise-area .nav{
+    background-color: #6e5773 !important;
+    
+}
+.practise-area .nav{
+    background-color: #6e5773 !important;
+    
+}
+
+.practise-area .nav .nav-link{
+    color: white !important;
+    padding-top: 40px;
+    font-size: 10px !important;
+}
+.practise-area .nav .nav-link.active{
+    background-color: aliceblue !important;
+    color: #6e5773 !important;
+    border-radius: 0% !important;
+    border-top-right-radius: 50% !important;
+    
+}
+.practise-area .btn-1{
+        background-color: #6e5773;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 15px 10px;
+        border-radius: 0% !important;
+        transition: all .3s ease-in-out 0s;
+        line-height: 1.5;
+        float: inline-end;
+}
+.practise-area h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+.practise-area h2{
+    font-weight: 300;
+    font-size: 25px;
+}
+.practise-area p{
+    font-family: "Nunito Sans",sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* end practise */
+
+/* attorneys */
+.attorneys{
+    background-color: aliceblue !important;
+}
+    .attorneys h2{
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .attorneys p{
+            font-family: "Nunito Sans",sans-serif;
+        line-height: 1.5;
+        font-size: 30px;
+        font-weight: 200;
+
+    }
+    .attorneys img{
+        width: 180px; 
+        height:  180px;
+        line-height: 180px;
+        border-radius: 100%;
+
+    }
+    .attorneys .fa{
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+/* end attorneys */
+
+/* blog */
+    .blog h3{
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+}
+    .blog h2{
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .blog p{
+        font-family: "Nunito Sans",sans-serif;
+        line-height: 1.5;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .blog .blog-holder p{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-align: left;
+    }
+    .blog .blog-holder p:hover{
+        color: #6e5773;
+    }
+    .blog a:hover{
+        text-decoration: none;
+        color: #6e5773;
+    }
+    .blog .blog-holder h3{
+        color: black;
+        text-align: left;
+        font-family: "Nunito Sans",sans-serif;
+
+    }
+    .blog .blog-holder h3:hover{
+        color: #6e5773;
+    }
+    .blog .blog-holder .btn-1{
+        background-color: #6e5773;
+        color: white;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 10px 10px;
+        border-radius: 0% !important;
+        transition: all .3s ease-in-out 0s;
+        float: inline-end;
+    }
+    .blog .blog-holder span p{
+        cursor: pointer;
+        font-size: 15px;
+        color: #6e5773;
+        padding-top: 15px;
+    }
+
+
+/* end blog */
+
+/* contacts */
+.contacts {
+    background-color: aliceblue;
+}
+.contacts p{
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.contacts h2{
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    
+}
+.contacts .contact-holder p{
+    color: #6e5773;
+}
+.contacts .contact-holder i.fa{
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #6e5773;
+    color: white;
+    border-radius: 50%;
+
+}
+.contacts .contact-holder a{
+    color: #6e5773;
+     text-decoration: none;
+     font-family: "Nunito Sans",sans-serif;
+}
+.bg-color{
+    background-color: #6e5773;
+}
+.contacts .form-control{
+    background-color: #8b7091 !important;
+    border-radius: 0% !important;
+    border-color:  transparent !important;
+    padding: 30px 0 !important;
+    color: white !important;
+    font-size: 18px;
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white !important;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+/* end contacts */
+/* footer */
+.footer{
+    background-color: #222831;
+    padding: 100px 20px;
+}
+.footer h2{
+    color: white;
+    font-weight: 300;
+    font-family: "Nunito Sans" ,sans-serif;
+    font-size: 30px;
+}
+.footer p{
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+.footer .links .fa{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    opacity: 50%;
+    float: inline-start;
+    
+}
+.footer .links a{
+    color: white;
+    text-decoration: none;
+    opacity: 50%;
+    font-family: "Nunito Sans",sans-serif;
+}
+.footer .practise-areas .fa{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    opacity: 50%;
+    float: inline-start;
+
+}
+.footer .practise-areas a{
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+}
+.footer .qstn-holder .fa{
+    color: white;
+    font-size: 18px;
+    opacity: 50%;
+
+}
+.footer .qstn-holder p{
+    color: white;
+    font-size: 15px;
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 200;
+    opacity: 50%;
+
+}
+.footer h6{
+    color: white;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: -60px;
+
+}
+.footer .get-social .fa{
+    color: white;
+     opacity: 50%;
+     padding: 10px;
+     font-size: 30px;
+     width: 80px;
+     height: 80px;
+     background-color: #2f3641;
+     line-height: 2;
+     border-radius: 50%;
+}
+.footer .fa{
+    color: red ;
+}
+
+/* end footer */

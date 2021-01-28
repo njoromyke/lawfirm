@@ -56,4 +56,9 @@ $(document).ready(function(){
         
         
     });
+    var scroll = new SmoothScroll('a[href*="#"]',{
+        easing: 'easeInOutCubic', // Easing pattern to use
+        speed: 400, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+    
+    });
 });

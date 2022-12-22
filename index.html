@@ -65,7 +65,14 @@
                 <a class="nav-link" href="#contacts">contacts</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link btn btn-1"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request a quote</a>
+                <a
+                  href=""
+                  class="nav-link btn btn-1"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-whatever="@mdo"
+                  >Request a quote</a
+                >
               </li>
             </ul>
           </div>
@@ -90,58 +97,100 @@
           </p>
           <br />
           <br />
-          <a class="btn-1" href="#"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request a quote</a>
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <a
+            class="btn-1"
+            href="#"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            data-whatever="@mdo"
+            >Request a quote</a
+          >
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Appointment</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Appointment
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                  <div class="row">
+                  <form>
+                    <div class="row">
                       <div class="col-md-12">
-                      
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label"
+                            >Full Name:</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control shadow-none"
+                            id="recipient-name"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label"
+                            >Email:</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control shadow-none"
+                            id="email"
+                          />
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
                             <div class="form-group">
-                                
-                              <label for="recipient-name" class="col-form-label">Full Name:</label>
-                              <input type="text" class="form-control shadow-none" id="recipient-name">
+                              <label for="recipient-name" class="col-form-label"
+                                >Date:</label
+                              >
+                              <input
+                                type="date"
+                                class="form-control shadow-none"
+                                id="recipient-name"
+                              />
                             </div>
+                          </div>
+                          <div class="col-md-6">
                             <div class="form-group">
-                                
-                                <label for="recipient-name" class="col-form-label">Email:</label>
-                                <input type="email" class="form-control shadow-none" id="email">
-                              </div>
-                              <div class="row">
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                
-                                        <label for="recipient-name" class="col-form-label">Date:</label>
-                                        <input type="date" class="form-control shadow-none" id="recipient-name">
-                                      </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                
-                                        <label for="recipient-name" class="col-form-label">Time:</label>
-                                        <input type="time" class="form-control shadow-none" id="recipient-name">
-                                      </div>
-                                  </div>
-                              </div>
-                            <div class="form-group">
-                              <label for="message-text" class="col-form-label">Message:</label>
-                              <textarea class="form-control shadow-none" id="message-text"></textarea>
+                              <label for="recipient-name" class="col-form-label"
+                                >Time:</label
+                              >
+                              <input
+                                type="time"
+                                class="form-control shadow-none"
+                                id="recipient-name"
+                              />
                             </div>
-                          
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label"
+                            >Message:</label
+                          >
+                          <textarea
+                            class="form-control shadow-none"
+                            id="message-text"
+                          ></textarea>
+                        </div>
                       </div>
-                  </div>
-                </form>
+                    </div>
+                  </form>
                 </div>
                 <div class="modal-footer">
-                  
                   <button type="button" class="btn btn-2">Send message</button>
                 </div>
               </div>
@@ -802,7 +851,6 @@
       </div>
     </section>
 
-    
     <!-- end modal -->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
@@ -816,9 +864,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/main.js"></script>
-    <script src="js/jquery.waypoints.js"></script>
     <script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-
   </body>
 </html>
